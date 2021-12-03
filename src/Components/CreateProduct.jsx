@@ -1,7 +1,7 @@
 import React,{useState} from "react";
 import { useUpdateListContext} from "../Context";
-import productService from "./Services/ProductServices";
-import useToken from "./Services/tokenHandler";
+import productService from "../Services/ProductServices";
+import useToken from "../Services/tokenHandler";
 
 function CreateProduct(){
 

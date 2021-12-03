@@ -1,6 +1,6 @@
 import React from "react";
-import useToken from "./Services/tokenHandler";
-import productService from "./Services/ProductServices";
+import useToken from "../Services/tokenHandler";
+import productService from "../Services/ProductServices";
 function ListItem(props){
     const {token} = useToken();
     

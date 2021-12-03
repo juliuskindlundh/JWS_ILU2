@@ -1,9 +1,9 @@
 import React,{useState,useEffect} from "react";
 import ListOptions from "./ListOptions";
 import List from "./List";
-import productService from "./Services/ProductServices";
+import productService from "../Services/ProductServices";
 import {useUpdateListContext } from "../Context";
-import useToken from "./Services/tokenHandler";
+import useToken from "../Services/tokenHandler";
 
 function ProductList(){
 
